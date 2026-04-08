@@ -1,0 +1,45 @@
+.signdiv {
+    width: 100%;
+    background: #1f2024;
+    color: #f8f9ff;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    /* gap: px; */
+}
+
+.signature {
+    margin: 4px 0;
+}
+
+.sign {
+    color: #AC6CFF;
+    font-weight: 600;
+}
+
+.shukar {
+    font-size: 16px;
+    opacity: 0.85;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .signature{
+        font-size: 18px;
+    }
+    .signdiv {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signdiv {
+        font-size: 13px;
+    }
+
+    .shukar {
+        font-size: 13px;
+    }
+}

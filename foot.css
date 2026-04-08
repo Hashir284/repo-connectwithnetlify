@@ -1,0 +1,35 @@
+       .col4 ul li:nth-child(2),
+        .col4 ul li:nth-child(3) {
+            display: flex;
+            gap: 10px;
+            align-items: start;
+            align-items: center;
+            /* gap: 12px; */
+            margin-bottom: 18px;
+        }
+
+        .col4 ul li:nth-child(2) {
+            margin-top: 10px;
+        }
+
+        .col4 ul li:nth-child(1) i {
+            font-size: 25px;
+            margin-left: 10px !important;
+        }
+
+        .col4 ul li:nth-child(2) i,
+        .col4 ul li:nth-child(3) i {
+            background: #ffffff;
+            color: #A46CF3;
+            /* purple icon color */
+            width: 40px !important;
+            height: 40px;
+            padding: 10px;
+            padding: 0;
+            border-radius: 50%;
+            font-size: 26px;
+            margin-bottom: -4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
